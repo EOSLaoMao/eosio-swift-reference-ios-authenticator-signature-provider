@@ -23,12 +23,12 @@ else
   target 'EosioSwiftReferenceAuthenticatorSignatureProvider' do
     use_frameworks!
 
-    pod 'EosioSwift', '~> 0.1.1'
+    pod 'EosioSwift', '~> 0.2.1'
     pod 'SwiftLint'
 
     target 'EosioSwiftReferenceAuthenticatorSignatureProviderTests' do
       inherit! :search_paths
-      pod 'EosioSwift', '~> 0.1.1'
+      pod 'EosioSwift', '~> 0.2.1'
     end
   end
 end
