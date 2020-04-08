@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
                          'Ben Martell' => 'ben.martell@objectpartners.com' }
   s.source           = { :git => 'https://github.com/EOSIO/eosio-swift-reference-ios-authenticator-signature-provider.git', :tag => "v" + s.version.to_s }
 
-  s.swift_version         = '4.2'
+  s.swift_version         = '5.2'
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'EosioSwiftReferenceAuthenticatorSignatureProvider/*.swift'
@@ -33,5 +33,5 @@ Pod::Spec.new do |s|
                             'SWIFT_COMPILATION_MODE' => 'wholemodule',
                             'ENABLE_BITCODE' => 'YES' }
 
-  s.ios.dependency 'EosioSwift', '~> 0.1.1'
+  s.ios.dependency 'EosioSwift', '~> 0.2.1'
 end
