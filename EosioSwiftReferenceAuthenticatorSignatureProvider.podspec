@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EosioSwiftReferenceAuthenticatorSignatureProvider'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'Signature Provider for EOSIO SDK for Swift that relays transactions to the EOSIO Reference Authenticator iOS App.'
-  s.homepage         = 'https://github.com/EOSIO/eosio-swift-reference-ios-authenticator-signature-provider'
+  s.homepage         = 'https://github.com/EOSLaoMao/eosio-swift-reference-ios-authenticator-signature-provider'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
                            Copyright (c) 2017-2019 block.one and its contributors.  All rights reserved.
                          LICENSE
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
                          'Brandon Fancher' => 'brandon.fancher@block.one',
                          'Steve McCoole' => 'steve.mccoole@objectpartners.com',
                          'Ben Martell' => 'ben.martell@objectpartners.com' }
-  s.source           = { :git => 'https://github.com/EOSIO/eosio-swift-reference-ios-authenticator-signature-provider.git', :tag => "v" + s.version.to_s }
+  s.source           = { :git => 'https://github.com/EOSLaoMao/eosio-swift-reference-ios-authenticator-signature-provider.git', :tag => "v" + s.version.to_s }
 
   s.swift_version         = '5.2'
   s.ios.deployment_target = '11.0'

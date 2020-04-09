@@ -2,6 +2,8 @@ using_local_pods = ENV['USE_LOCAL_PODS'] == 'true' || false
 
 platform :ios, '11.0'
 
+source 'git@github.com:EOSLaoMao/laomao-pods.git'
+
 # ignore all warnings from all pods
 inhibit_all_warnings!
 
